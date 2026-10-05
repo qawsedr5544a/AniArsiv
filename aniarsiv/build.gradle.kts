@@ -1,11 +1,11 @@
 import com.lagradost.CloudstreamPlugin3
 
 plugins {
-    id("com.lagradost.CloudstreamPlugin3")
+    id("cloudstream")
 }
 
 cloudstream {
-    authors     = listOf("aaaaaa")
+    authors     = listOf("qawsedr5544a")
     language    = "tr"
     description = "AniArşiv - Türkçe Anime İzleme Platformu."
 
@@ -16,7 +16,7 @@ cloudstream {
      * 2: Slow
      * 3: Beta only
     **/
-    status  = 1 // Aktif ve çalışıyor
+    status  = 1
     tvTypes = listOf("Anime", "AnimeMovie")
     iconUrl = "https://google.com%"
 }
