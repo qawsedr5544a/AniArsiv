@@ -79,7 +79,9 @@ class AniArsivProvider : MainAPI() {
                     name = "AniArşiv Oynatıcı",
                     url = fixUrl(videoSource),
                     referer = mainUrl,
-                    quality = Qualities.P1080.value
+                    quality = Qualities.P1080.value,
+                    isM3u8 = false,
+                    headers = emptyMap()
                 )
             )
             return true
