@@ -5,11 +5,18 @@ plugins {
 }
 
 cloudstream {
-    // Uygulama içinde eklenti ayarlarında görünecek bilgileri tanımlar
-    provider {
-        name = "AniArşiv"
-        description = "AniArşiv Türkçe Anime Eklentisi"
-        language = "tr"
-        version = 1
-    }
+    authors     = listOf("aaaaaa")
+    language    = "tr"
+    description = "AniArşiv - Türkçe Anime İzleme Platformu."
+
+    /**
+     * Status int as the following:
+     * 0: Down
+     * 1: Ok
+     * 2: Slow
+     * 3: Beta only
+    **/
+    status  = 1 // Aktif ve çalışıyor
+    tvTypes = listOf("Anime", "AnimeMovie")
+    iconUrl = "https://google.com%"
 }
